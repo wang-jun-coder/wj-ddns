@@ -3,7 +3,7 @@
 
 ## 安装
 ```
-npm install wj-ddns
+npm install wj-ddns -g
 ```
 
 ## 使用方式
