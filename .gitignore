@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
-# webstorm 
+# webstorm
 .idea/
+
+# private account
+cmd.txt

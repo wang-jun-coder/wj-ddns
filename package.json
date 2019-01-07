@@ -1,6 +1,6 @@
 {
   "name": "wj-ddns",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "wj-ddns": "./bin/wj-ddns.js"
@@ -8,8 +8,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wang-jun-coder/wj-ddns.git"
+  },
+  "keywords": [
+    "ddns",
+    "域名解析",
+    "阿里云域名解析"
+  ],
+  "bugs": {
+    "url": "https://github.com/wang-jun-coder/wj-ddns/issues"
+  },
+  "author": "wangjuncoder",
+  "license": "MIT",
   "dependencies": {
     "@alicloud/pop-core": "^1.7.4",
     "commander": "^2.19.0",

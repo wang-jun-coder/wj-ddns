@@ -7,11 +7,13 @@ npm install wj-ddns
 ```
 
 ## 使用方式
+### 启动 ddns 任务
+ 
 ```
 /**
 wj-ddns: 			cli 命令
 setup: 				启动子命令
-wangjuncoder.cn: 	要设置的域名
+wangjuncoder.cn: 		要设置的域名
 test: 				映射子域名，设置后将使用 test.wangjuncoder.cn 配置
  -k xxx: 			使用 -k 指定阿里云中的 AccessKeyId（注意需要有域名解析权限）
  -s xxx:			使用 -s 指定阿里云中的 AccessKeySecret
@@ -20,6 +22,21 @@ test: 				映射子域名，设置后将使用 test.wangjuncoder.cn 配置
 wj-ddns setup wangjuncoder.cn test -k xxx -s xxx -t 10
 
 ```
+
+### 列出 ddns 任务
+```
+wj-ddns list
+```
+
+### 删除 ddns 任务
+```
+// 删除指定任务
+wj-ddns stop wangjuncoder.cn test
+
+// 删除所有任务
+wj-ddns stop -a
+```
+
 
 ### 注意事项
 * Node.js >= 8.x
