@@ -24,7 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "@alicloud/pop-core": "^1.7.4",
-    "commander": "^2.19.0",
+    "commander": "^3.0.1",
     "public-ip": "^3.0.0"
   }
 }
