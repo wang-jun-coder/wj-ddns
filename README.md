@@ -1,4 +1,7 @@
 # wj-ddns
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/wang-jun-coder/wj-ddns.svg)](https://greenkeeper.io/)
+
 动态设置域名解析至本地公网 ip 的命令行工具
 
 ## 安装
